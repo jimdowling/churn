@@ -1,0 +1,8 @@
+conda:
+statsmodels
+py-xgboost
+more-itertools
+
+pip:
+yellowbrick
+awesome-slugify
