@@ -7,3 +7,5 @@ pip:
 yellowbrick
 awesome-slugify
 imblearn
+
+s3fs
