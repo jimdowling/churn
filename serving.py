@@ -6,7 +6,7 @@ class Predict(object):
 
     def __init__(self):
         """ Initializes the serving state, reads a trained model from HDFS"""
-        self.model_path = "Models/churn/1/xgb_churn.pkl"
+        self.model_path = "Models/XGBoost_Churn_Classifier/1/xgb_reg.pkl"
         print("Copying model from HDFS to local directory")
         hdfs.copy_to_local(self.model_path)
         print("Reading local model for serving")
