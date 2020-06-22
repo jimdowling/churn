@@ -10,7 +10,7 @@ class Predict(object):
         print("Copying model from HDFS to local directory")
         hdfs.copy_to_local(self.model_path)
         print("Reading local model for serving")
-        self.model = xgb_model_loaded = pickle.load(open("xgb_churn.pkl", "rb"))
+        self.model = xgb_model_loaded = pickle.load(open("xgb_reg.pkl", "rb"))
         print("Initialization Complete")
 
 
