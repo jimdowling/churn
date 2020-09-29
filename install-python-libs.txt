@@ -3,9 +3,12 @@ statsmodels
 py-xgboost
 more-itertools
 
+
+conda-forge:
+imbalanced-learn
+s3fs
+
 pip:
 yellowbrick
 awesome-slugify
-imblearn
 
-s3fs
